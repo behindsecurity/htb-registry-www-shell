@@ -6,7 +6,7 @@ This Python script automates interactions with Registry's web application, focus
 
 - **Login Automation:** Automates the login process with predefined credentials.
 - **Configuration Editing:** Edits the application's configuration file through the web interface.
-- **File Uploading:** Uploads a file to the server, typically for establishing a webshell.
+- **File Uploading:** Uploads a php script to the server in order to establish a webshell.
 - **Command Execution:** Executes commands on the server through the uploaded PHP webshell.
 
 ## Requirements
@@ -25,7 +25,7 @@ pip install requests beautifulsoup4
 Run the script with Python 3:
 
 ```bash
-python3 script.py
+python3 main.py
 ```
 
-**Interactive Shell:** After successful execution, the script provides an interactive shell for executing commands on the target server.
+**Interactive Shell:** After successful execution, the script provides a semi-interactive shell for executing commands on the target server.
